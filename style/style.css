@@ -1,0 +1,49 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+    --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    --Font-size-paragraph: 18px;
+}
+
+html,
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background: var(--Very-dark-blue-mainBG);
+}
+.main{
+    background: var(--Very-dark-blue-cardBG);
+    border-radius: 8px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main-top{
+    border-radius: 8px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.main-middle-equilibrium p{
+    font-size: var(--Font-size-paragraph);
+    font-weight: 600;
+    color: var(--White);
+}
+.main-middle-paragraph p{
+    font-size: var(--Font-size-paragraph);
+    font-weight: 400;
+    color: var(--Soft-blue);
+}
+.main-middle-eth div p{
+    font-weight: 400;
+    color: var(--Cyan);
+}
